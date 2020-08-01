@@ -91,3 +91,31 @@ Run Application Server
 }
 
 ```
+
+# Mutation
+
+## addCustomer, editCustomer, deleteCustomer
+
+## Sample For Edit Customer
+
+## Input
+
+```
+mutation {
+  editCustomer(id: "4", name :"Harry") {
+		name
+  }
+}
+```
+
+## Output
+
+```
+{
+  "data": {
+    "editCustomer": {
+      "name": "Harry"
+    }
+  }
+}
+```
